@@ -35,3 +35,24 @@ console.log(typeof id);
 console.log(typeof outsideTemp);
 console.log(typeof myfunction);
 
+
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+//stack(primitive)          //Heap(non-primitive)
+
+let myyoutubename= "shubhammaurya";
+
+let anothername= myyoutubename;
+anothername="codechai"
+console.log(myyoutubename);
+console.log(anothername);
+
+const userOne={
+  email:"skm@google.com",
+  upiid:"user@ybl"
+}
+
+let userTwo=userOne;
+userTwo.email="user@gmail.com"
+console.log(userOne.email);
+console.log(userTwo.email);
