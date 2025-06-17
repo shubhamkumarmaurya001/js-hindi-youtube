@@ -1,5 +1,7 @@
 //singleton
-Object.create
+// Object.create
+const tinderUser= new Object();
+
 
 //object literals
 
