@@ -15,11 +15,11 @@ const user={
 // console.log(this);
 
 
-// this not work inside function as contest
+// this not work inside function as context
 
 // function chai(){
 //     let username="Hitesh"
-//     console.log(this.username);   //here, username is contest  
+//     console.log(this.username);   //here, username is context  
 //     console.log(this);
 // }
 
