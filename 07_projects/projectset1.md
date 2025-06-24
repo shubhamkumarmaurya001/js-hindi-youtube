@@ -4,6 +4,7 @@
 
 ##project-1
 ``` javascript
+##project-1 color changer
 const buttons=document.querySelectorAll('.button');
 const body= document.querySelector("body");
 buttons.forEach(function (button){
